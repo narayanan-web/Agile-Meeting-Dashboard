@@ -1,0 +1,98 @@
+.meetingclass
+{
+    width: 600px;
+    background: rgb(206, 234, 252);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+} 
+.meeting-form-title {
+  font-family: Poppins-Medium;
+  font-size:  20px;
+  color: #333333;
+  line-height: 1;
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  justify-content:space-between; 
+}
+
+.meeting-input-form 
+{
+    position: relative;
+    width: 75%;
+    z-index: 1;
+    margin-bottom: 7px;
+    justify-content: center;
+    margin-left: 25px;
+  }
+.meeting-des-form
+{
+    position: relative;
+    width: 90%;
+    z-index: 1;
+    margin-bottom: 7px;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.date
+{
+    position: relative;
+    width: 45%;
+    margin-bottom: 7px;
+    justify-content: center;
+    margin-left: 25px;
+}
+.date-style
+{
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+
+  display: block;
+  width: 70%;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 15px; 
+}
+.time
+{
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-evenly;
+    
+}
+.time-style
+{
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+
+  display: block;
+  width: 30%;
+  background: oldlace;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px; 
+}
+.meeting-people-form
+{
+	border-radius: 10px;
+    position: relative;
+    width: 90%;
+    z-index: 1;
+    margin-bottom: 7px;
+    justify-content: center;
+    margin-left: 25px;
+}

@@ -1,0 +1,148 @@
+  /* Student Details */
+
+  .profile-class
+  {
+    padding: 20px 0;
+    flex: 1;
+    overflow-y: auto;
+    height: 100%;
+  }
+  .student-name
+  {
+    font-family: Poppins-Bold;
+    font-size: 25px;
+  }
+
+  .profile-form
+  {
+    width: 400px;
+    background: #daffe5;
+    border-radius: 20px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .editform-titles
+  {
+  font-family: Poppins-Medium;
+  font-size:  24px;
+  color: #333333;
+  line-height: 1.2;
+  padding: 20px;
+  border-top: 1px solid #ffd9d9 ;
+  width: 100%;
+  display: flex;
+  justify-content:space-between; 
+  }
+
+  .editform-titles:hover 
+  {
+    cursor: pointer;
+  }
+
+  
+  .student-details {
+    height: 0;
+    text-align: center;
+    transition: all 0.25s ease-in-out;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  
+  .student-details.expanded {
+    height: 245px;
+    padding-bottom: 0;
+    opacity: 1;
+  }
+  
+  .profile-img {
+    padding-top: 30px;
+    margin: 0 auto;
+
+  }
+  
+  .profile-img img {
+    border-radius: 100%;
+  }
+  
+  .student-name
+  {
+    margin: 5px 0 0 0;
+  }
+  
+  /* Tabbed Content */
+  .tabs {
+    background: #fff;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tabs:hover {
+    cursor: pointer;
+  }
+  
+  .tabs h3 {
+    margin: 0;
+  }
+  
+  .tab-content {
+    height: 0;
+    /* background: #dbedf6; */
+    box-sizing: border-box;
+    transition: height 0.25s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .tab-content.expanded {
+    height: 250px;
+  }
+  
+  .tab-content form {
+    padding: 15px 20px;
+  }
+  
+  .tab-content .form-control {
+    padding-bottom: 15px;
+  }
+  
+  .tab-content .form-control label {
+    display: block;
+  }
+  
+  .tab-content .form-control .textbox {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+  }
+  
+  .tab-content .form-buttons button {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Typography */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+  }
+  
