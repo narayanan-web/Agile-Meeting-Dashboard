@@ -10,7 +10,7 @@ public class LoginDao
 	String sql="select * from login where email=? and pass=?";
 	String url ="jdbc:mysql://localhost:3306/Agile_Meeting";
 	String username="root";
-	String password="Jaggufriend";
+	String password="";	//pet name
 	public String check(String email,String pass)
 	{
 		try 
