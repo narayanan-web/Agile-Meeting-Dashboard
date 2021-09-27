@@ -22,7 +22,7 @@ public class Updatepass extends HttpServlet
 		String sql="update login set pass=? where email=?";
 		String url ="jdbc:mysql://localhost:3306/Agile_Meeting";
 		String username="root";
-		String password="Jaggufriend";
+		String password="";	//pet name
 		PrintWriter out = response.getWriter();
 		String pass = request.getParameter("pass");
 		try 
