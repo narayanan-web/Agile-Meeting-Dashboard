@@ -53,7 +53,7 @@ public class MeetingandMail extends HttpServlet
 		String sql2="select distinct (email) from login where name=?;";
 		String url ="jdbc:mysql://localhost:3306/Agile_Meeting";
 		String username="root";
-		String password="Jaggufriend";
+		String password="";	//pet name
 		try 
 		{
 			Class.forName("com.mysql.jdbc.Driver");
